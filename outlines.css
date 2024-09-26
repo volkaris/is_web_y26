@@ -60,3 +60,40 @@
 #men {
     margin-left: 8%;
 }
+
+#popular_categories {
+
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#categories_main {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.image {
+    width:200px;
+    height: auto;
+
+}
+#grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(6,1fr);
+    justify-items: center;
+
+}
+.grid_text {
+    color: black;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
