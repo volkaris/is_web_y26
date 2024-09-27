@@ -1,11 +1,14 @@
 .header {
-    display: flex;
+    /*display: flex;*/
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
 }
 
 .header_buttons {
+    font-family: 'Montserrat', sans-serif;
     background-color: white;
     color: black;
     padding : 10px 20px;
@@ -15,6 +18,7 @@
     transition: background-color 0.3s ease, border 0.3s ease;
     font-size: 20px;
 
+
 }
 
 .header_buttons:hover {
@@ -22,8 +26,11 @@
 }
 
  .left-buttons {
-    display: flex;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+
     gap: 20px;
+     width: 500px;
 }
 
 #main_link {
@@ -34,9 +41,13 @@
 }
 
 .icon-buttons {
-    display: flex;
-    gap: 50px;
+    /*display: flex;*/
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  /*  gap: 20px;*/
+    justify-items: end;
     padding-right:2%
+
 
 }
 
@@ -73,20 +84,31 @@
 #categories_main {
     font-family: 'Montserrat', sans-serif;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 .image {
     width:200px;
     height: auto;
 
 }
-#grid {
+#categories-grid {
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(6,1fr);
     justify-items: center;
+    margin-top: 30px;
 
 }
+
+#goods-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(6,1fr);
+    /*grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));*/
+    justify-items: center;
+    margin-top: 30px;
+}
+
 .grid_text {
     color: black;
     text-align: center;
@@ -96,4 +118,12 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+.price, .grid_text, .add_to_cart {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.price {
+    margin-top: 10px;
 }
