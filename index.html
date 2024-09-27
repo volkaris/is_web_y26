@@ -27,13 +27,14 @@
 
         <strong   class="header_buttons"  id="main_link">STORE</strong>
 
-        <span class="icon-buttons">
+        <aside>
+        <nav class="icon-buttons">
             <a  href="#"> <i class="fas fa-search">    </i>     </a>
              <a  href="#"> <i class="fas fa-user">    </i>     </a>
              <a  href="#"> <i class="fas fa-heart">    </i>     </a>
              <a  href="#"> <i class="fas fa-shopping-bag">    </i>     </a>
-        </span>
-
+        </nav>
+        </aside>
     </div>
 
 </header>
@@ -41,7 +42,7 @@
 <main>
 
 
-<div  id="categories_main" >
+<section  id="categories_main" >
 
     <b id="popular_categories"  > ПОПУЛЯРНЫЕ КАТЕГОРИИ  </b>
     <div id="categories-grid">
@@ -90,19 +91,25 @@
         </div>
     </div>
 
-</div>
+</section>
 
-    <div>
-        <h1>ПОПУЛЯРНЫЕ ТОВАРЫ</h1>
+    <section >
+        <b id="popular_products">ПОПУЛЯРНЫЕ ТОВАРЫ</b>
 
         <div id="goods-grid">
 
                 <div class="single-product">
 
                         <img class="image" src="pics/products_pics/BF2443101007_50_1.jpg"   alt="picture">
+
+                    <div class="product-info">
+
                         <div class="price" > 5000 ₽</div>
                         <div  class="grid_text" >куртка стеганая со съемным капюшоном </div>
                         <button class="add_to_cart"> Добавить в корзину  </button>
+
+                    </div>
+
 
                 </div>
 
@@ -151,29 +158,48 @@
 
             </div>
 
-            <div>
 
-                <div class="single-product">
-
-                    <img class="image" src="pics/products_pics/BF2443120002_55_3.webp"   alt="picture">
-                    <div class="price" > 1299 ₽  </div>
-                    <div  class="grid_text" >Футболка хлопковая свободная с принтом </div>
-                    <button class="add_to_cart"> Добавить в корзину  </button>
-
-                </div>
-
-            </div>
 
         </div>
 
 
-    </div>
+    </section>
 
 
 </main>
 
 
-<footer></footer>
+<footer>
+
+<div class="footer_container">
+<section >
+    <strong class="to_customers_footer"> Покупателям</strong>
+    <ul>
+        <li>
+            сертификаты и купоны
+        </li>
+
+
+        <li>
+            доставка
+        </li>
+
+
+        <li>
+            оплата
+        </li>
+
+        <li>
+            возврат и обмен
+        </li>
+
+    </ul>
+</section>
+</div>
+
+
+
+</footer>
 
 
 </body>
