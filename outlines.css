@@ -1,5 +1,4 @@
 .header {
-    /*display: flex;*/
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
@@ -40,10 +39,8 @@
 }
 
 .icon-buttons {
-    /*display: flex;*/
     display: grid;
     grid-template-columns: repeat(4,1fr);
-  /*  gap: 20px;*/
     justify-items: end;
     padding-right:2%
 
@@ -94,7 +91,6 @@
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(6,1fr);
-
     justify-items: center;
     margin-top: 30px;
 }
@@ -102,6 +98,7 @@
 .grid_text {
     color: black;
     text-align: center;
+
 }
 a {
     text-decoration: none;
@@ -113,6 +110,7 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     text-align:start;
     margin-bottom: 10px;
+   /* font-size: 25px;*/
 }
 .price {
     margin-top: 10px;
@@ -122,9 +120,10 @@ a:hover {
     font-family: 'Montserrat', sans-serif;
     background-color: black;
     color: azure;
-    height: 300px;
+   /* height: 400px;*/
     font-size: 30px;
     margin-top: 100px;
+   /* width:2000px;*/
 }
 
 .to_customers_footer {
@@ -132,3 +131,4 @@ a:hover {
     font-size: 60px;
     margin: 10px 10px 10px;
 }
+
