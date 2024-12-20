@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="../css/index.css" rel="stylesheet">
+    <link href="../css/common.css" rel="stylesheet">
+    <link href="../css/constructor.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="../css/constructor.css">
+
+
+    <script defer src="../js/time_estimator.js"></script>
+    <script defer src="../js/active_state.js"></script>
+    <script defer src="../js/constructor.js"></script>
+
+    <title>Соберите свой товар товара</title>
+</head>
+<body>
+<div id="root">
+    <header>
+        <strong id="store_link">STORE</strong>
+        <nav id="icon-buttons">
+            <a id="home" class="inactive" href="../index.html"><i class="fas fa-home"></i></a>
+            <a id="search" class="inactive" href="../html/constructor.html"><i class="fas fa-hammer"></i></a>
+            <a id="shopping-bag" class="inactive" href="addToCart.html"><i class="fas fa-shopping-bag"></i></a>
+            <a id="reviews" class="inactive" href="review.html"> <i class="fas fa-comments"> </i> </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Добавьте свой товар</h1>
+            <form id="form">
+                <div class="formGroup">
+                    <label for="costInput">Введите цену</label>
+                    <textarea id="costInput" placeholder="Введите цену"></textarea>
+                </div>
+
+                <div class="formGroup">
+                    <label for="goodsInput">Введите название товара</label>
+                    <textarea id="goodsInput" placeholder="Введите название товара"></textarea>
+                </div>
+
+                <div id="dropArea">
+                    <p>Вставьте сюда изображение или нажмите сюда, чтобы выбрать изображение</p>
+                    <input type="file" id="fileInput" accept="image/*" multiple />
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+
+            <div id="savedGoods"></div>
+        </div>
+
+        <div id="modalWindow">
+            <div id="closeModalWindow">&times;</div>
+            <img id="fullSizedModalImage" src="" alt="RIP to image">
+        </div>
+    </main>
+
+    <footer></footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Магазин одежды для нефоров и альтушек">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link href="https://unpkg.com/swiper@9/swiper-bundle.min.css" rel="stylesheet"/>
+
+    <script defer src="js/time_estimator.js"></script>
+    <script defer src="js/active_state.js"></script>
+    <script defer src="https://unpkg.com/swiper@9/swiper-bundle.min.js" ></script>
+    <script src="js/swiper.js" defer></script>
+    <title>STORE</title>
+</head>
+
+<body>
+<div id="root">
+    <header>
+        <strong id="store_link">STORE</strong>
+
+        <nav id="icon-buttons">
+            <a id="home" class="inactive"  href="index.html">  <i class="fas fa-home">  </i>  </a>
+            <a id="search" class="inactive" href="html/constructor.html"> <i class="fas fa-hammer"> </i> </a>
+            <a id="shopping-bag" class="inactive" href="html/constructor.html"> <i class="fas fa-shopping-bag"> </i> </a>
+            <a id="reviews" class="inactive" href="html/review.html"> <i class="fas fa-comments"> </i> </a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="popular_categories">
+
+            <b class="bold_text">ПОПУЛЯРНЫЕ КАТЕГОРИИ </b>
+            <div id="categories-grid">
+
+                <a class="category_card" href="#">
+                    <img class="image" src="pics/header_pics/45HaFZSyox7QMYS6J7oFar69w1SQoNhLJgvbjuVO.jpg"
+                         alt="picture">
+                    <div class="grid_text">верхняя одежда</div>
+                </a>
+
+                <a class="category_card" href="#">
+                    <img class="image" src="pics/header_pics/0ZDutuUM6BOFlTr9wifkRvIYrzqpbJL2sWBNN9cg.jpg"
+                         alt="picture">
+                    <div class="grid_text"> джинсы</div>
+                </a>
+
+                <a class="category_card" href="#">
+                    <img class="image" src="pics/header_pics/VxI0iNb4LiTNWfKZBMsamYImdgHcgfbn4QnDHiPR.jpg"
+                         alt="picture">
+                    <div class="grid_text">свитеры и джемперы</div>
+                </a>
+
+                <a class="category_card" href="#">
+                    <img class="image" src="pics/header_pics/WVN0X44QI0hzgZrE9W09MF6j4ki07CLfIsjwyahV.jpg"
+                         alt="picture">
+                    <div class="grid_text">футболки и лонгсливы</div>
+                </a>
+
+                <a class="category_card" href="#">
+                    <img class="image" src="pics/header_pics/jmpAY5Sx8zRaO7J8oXBtQJIfacW6YG8ddT9Xwn4H.jpg"
+                         alt="picture">
+                    <div class="grid_text">брюки</div>
+                </a>
+
+                <a class="category_card" href="#">
+                    <img class="image" src="pics/header_pics/MHIL7xTLSNr5qcHoFheRlFIanyblFSpUG2KBTgqB.jpg"
+                         alt="picture">
+                    <div class="grid_text">толстовки и худи</div>
+                </a>
+            </div>
+        </section>
+
+        <section id="popular_products">
+            <b class="bold_text">ПОПУЛЯРНЫЕ ТОВАРЫ</b>
+            <div id="goods-grid">
+                <div class="popular_products_row">
+
+                    <div class="single-product swiper">
+                        <div class="swiper-wrapper">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443101007_50_1.jpg" alt="picture">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443101007_50_4.webp" alt="picture">
+                        </div>
+
+                        <div class="product-info">
+                            <div class="price"> 5000 ₽</div>
+                            <div class="grid_text">куртка стеганая со съемным капюшоном</div>
+                            <button class="add_to_cart"> Добавить в корзину</button>
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+
+                    <div class="single-product swiper">
+                        <div class="swiper-wrapper">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443109005_103_1.webp" alt="Брюки-парашюты широкие">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443109005_103_4.webp" alt="Брюки-парашюты широкие">
+                        </div>
+
+                        <div class="product-info">
+                            <div class="price">3799 ₽</div>
+                            <div class="grid_text">Брюки-парашюты широкие</div>
+                            <button class="add_to_cart">Добавить в корзину</button>
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="single-product swiper">
+                        <div class="swiper-wrapper">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443123004_50_2.webp" alt="Худи флисовая с капюшоном">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443123004_50_6.webp" alt="Худи флисовая с капюшоном">
+                        </div>
+
+                        <div class="product-info">
+                            <div class="price">3599 ₽</div>
+                            <div class="grid_text">Худи флисовая с капюшоном</div>
+                            <button class="add_to_cart">Добавить в корзину</button>
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="single-product swiper">
+                        <div class="swiper-wrapper">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443123002_61_1.webp" alt="Свитшот oversize из флиса">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443123002_61_5.webp" alt="Свитшот oversize из флиса">
+                        </div>
+
+                        <div class="product-info">
+                            <div class="price">2999 ₽</div>
+                            <div class="grid_text">Свитшот oversize из флиса</div>
+                            <button class="add_to_cart">Добавить в корзину</button>
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="single-product swiper">
+                        <div class="swiper-wrapper">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2513123018_38_3.webp" alt="Толстовка half-zip">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2513123018_38_6.webp" alt="Толстовка half-zip">
+                        </div>
+
+                        <div class="product-info">
+                            <div class="price">6599 ₽</div>
+                            <div class="grid_text">Толстовка half-zip</div>
+                            <button class="add_to_cart">Добавить в корзину</button>
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="single-product swiper">
+                        <div class="swiper-wrapper">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443120002_55_1.webp" alt="Футболка хлопковая свободная с принтом">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443120002_55_3.webp" alt="Футболка хлопковая свободная с принтом">
+                        </div>
+
+                        <div class="product-info">
+                            <div class="price">1299 ₽</div>
+                            <div class="grid_text">Футболка хлопковая свободная с принтом</div>
+                            <button class="add_to_cart">Добавить в корзину</button>
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+
+                </div>
+
+                <div class="popular_products_row">
+                    <div class="single-product swiper">
+                        <div class="swiper-wrapper">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443123004_10_5.webp" alt="Худи флисовая с капюшоном-балаклавой">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443123004_10_5.webp" alt="Худи флисовая с капюшоном-балаклавой">
+                        </div>
+
+                        <div class="product-info">
+                            <div class="price">3599 ₽</div>
+                            <div class="grid_text">Худи флисовая с капюшоном-балаклавой</div>
+                            <button class="add_to_cart">Добавить в корзину</button>
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="single-product swiper">
+                        <div class="swiper-wrapper">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443101010_5_6.webp" alt="Куртка из искусственного меха с принтом">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443101010_5_6.webp" alt="Куртка из искусственного меха с принтом">
+                        </div>
+
+                        <div class="product-info">
+                            <div class="price">6599 ₽</div>
+                            <div class="grid_text">Куртка из искусственного меха с принтом</div>
+                            <button class="add_to_cart">Добавить в корзину</button>
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="single-product swiper">
+                        <div class="swiper-wrapper">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443123021_50_1.webp" alt="Худи oversize утепленная с капюшоном">
+                            <img class="image swiper-slide" src="pics/products_pics/BF2443123021_50_1.webp" alt="Худи oversize утепленная с капюшоном">
+                        </div>
+
+                        <div class="product-info">
+                            <div class="price">2999 ₽</div>
+                            <div class="grid_text">Худи oversize утепленная с капюшоном</div>
+                            <button class="add_to_cart">Добавить в корзину</button>
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="single-product swiper">
+                        <div class="swiper-wrapper">
+                            <img class="image swiper-slide" src="pics/products_pics/2433123013_75_2.webp" alt="Худи-зипка oversize с капюшоном и принтом красным">
+                            <img class="image swiper-slide" src="pics/products_pics/2433123013_75_2.webp" alt="Худи-зипка oversize с капюшоном и принтом красным">
+                        </div>
+
+                        <div class="product-info">
+                            <div class="price">3799 ₽</div>
+                            <div class="grid_text">Худи-зипка oversize с капюшоном и принтом красным</div>
+                            <button class="add_to_cart">Добавить в корзину</button>
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="single-product swiper">
+                        <div class="swiper-wrapper">
+                            <img class="image swiper-slide" src="pics/products_pics/2433117013_55_2.webp" alt="Рубашка oversize клетчатая с открытыми срезами">
+                            <img class="image swiper-slide" src="pics/products_pics/2433117013_55_2.webp" alt="Рубашка oversize клетчатая с открытыми срезами">
+                        </div>
+
+                        <div class="product-info">
+                            <div class="price">3299 ₽</div>
+                            <div class="grid_text">Рубашка oversize клетчатая с открытыми срезами</div>
+                            <button class="add_to_cart">Добавить в корзину</button>
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="single-product swiper">
+                        <div class="swiper-wrapper">
+                            <img class="image swiper-slide" src="pics/products_pics/2433122009_35_2.webp" alt="Лонгслив oversize хлопковый в полоску белую">
+                            <img class="image swiper-slide" src="pics/products_pics/2433122009_35_2.webp" alt="Лонгслив oversize хлопковый в полоску белую">
+                        </div>
+
+                        <div class="product-info">
+                            <div class="price">2299 ₽</div>
+                            <div class="grid_text">Лонгслив oversize хлопковый в полоску белую</div>
+                            <button class="add_to_cart">Добавить в корзину</button>
+                        </div>
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+
+        <section id="ads">
+            <img id="ads_image" src="pics/ads/save_me.jpg" alt="save_me_pls">
+        </section>
+
+
+        <div id="footer_grid">
+            <strong class="footer_grid_text"> Покупателям</strong>
+
+            <div class="footer_text"> сертификаты и купоны</div>
+
+            <div class="footer_text">доставка</div>
+
+            <div class="footer_text">оплата</div>
+
+            <div class="footer_text">возврат и обмен</div>
+
+            <div class="footer_text">служба поддержки</div>
+
+            <div class="footer_text">магазин</div>
+
+
+            <strong class="footer_grid_text"> компания</strong>
+
+            <div class="footer_text"> о компании</div>
+
+            <div class="footer_text">о бренде</div>
+
+            <div class="footer_text">работа у нас</div>
+
+            <div class="footer_text">франшиза</div>
+
+            <div class="footer_text">контакты</div>
+
+            <div class="footer_text">партнерская программа</div>
+
+        </div>
+
+
+        <q class="footer_text">
+            <sub>w</sub> eb labs</q>
+        <p class="footer_text">
+            ©
+            <del>Петроград , Российская Империя</del>
+            <ins>Санкт-Петербург, Российская Федерация</ins>
+        </p>
+
+    </footer>
+</div>
+
+</body>
+
+
+</html>

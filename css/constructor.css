@@ -1,0 +1,153 @@
+h1 {
+    text-align: center;
+    color: var(--color-black);
+}
+
+.container {
+    max-width: 60vw;
+    margin: auto;
+    background: #fff;
+    padding: 3vw;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+.formGroup {
+    margin-bottom: 1.25rem;
+}
+
+#dropArea {
+    border: 0.125rem dashed #aaa;
+    border-radius: 0.25rem;
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    color: #aaa;
+    cursor: pointer;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+#dropArea.hover {
+    border-color: #333;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#dropArea input[type="file"] {
+    display: none;
+}
+
+button {
+    padding: 0.625rem 1.25rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.25rem;
+}
+
+#savedGoods {
+    margin-top: 1.25rem;
+}
+
+#modalWindow {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.entry {
+    border: 0.0625rem solid #ddd;
+    padding: 0.9375rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.9375rem;
+    background-color: #fafafa;
+}
+
+.entry-text {
+    margin-bottom: 0.625rem;
+    white-space: pre-wrap;
+}
+
+.entry-images img {
+    max-width: 9.375rem;
+    margin-right: 0.625rem;
+    margin-bottom: 0.625rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.0625rem 0.1875rem rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.entry button {
+    margin-top: 0.625rem;
+    padding: 0.3125rem 0.625rem;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.75rem;
+}
+
+.entry button:hover {
+    background-color: #e60000;
+}
+
+#fullSizedModalImage {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 0.25rem;
+}
+
+#closeModalWindow {
+    color: #fff;
+    font-size: 1.875rem;
+    font-weight: bold;
+    position: absolute;
+    top: 1.25rem;
+    right: 2.5rem;
+    cursor: pointer;
+}
+
+.entry-time {
+    font-size: 0.75rem;
+    color: #666;
+}
+
+#modalWindow.show {
+    display: flex;
+}
+
+
+.entry-time {
+    font-size: 0.75rem;
+    color: #666;
+}

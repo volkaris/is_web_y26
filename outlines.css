@@ -1,0 +1,139 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header_buttons , .add_to_cart {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border 0.3s ease;
+    font-size: 20px;
+
+
+}
+
+.header_buttons:hover {
+    color: rgb(128, 128, 128);
+}
+
+ .left-buttons {
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+
+    gap: 20px;
+     width: 500px;
+}
+
+#main_link {
+    padding-right: 13%;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.icon-buttons {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: end;
+    padding-right:2%
+
+
+}
+
+.icon-buttons a {
+    color: black;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.icon-buttons a:hover {
+    color: rgb(128, 128, 128);
+}
+
+
+
+#popular_categories  , #popular_products {
+
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#categories_main , #popular_products {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.image {
+    width:300px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+
+}
+.image:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+#categories-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(6,1fr);
+    justify-items: center;
+    margin-top: 30px;
+
+}
+
+#goods-grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(6,1fr);
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.grid_text {
+    color: black;
+    text-align: center;
+
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.price, .grid_text, .add_to_cart {
+    font-family: 'Montserrat', sans-serif;
+    text-align:start;
+    margin-bottom: 10px;
+   /* font-size: 25px;*/
+}
+.price {
+    margin-top: 10px;
+}
+
+.footer_container {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: azure;
+   /* height: 400px;*/
+    font-size: 30px;
+    margin-top: 100px;
+   /* width:2000px;*/
+}
+
+.to_customers_footer {
+    width: 100px;
+    font-size: 60px;
+    margin: 10px 10px 10px;
+}
+

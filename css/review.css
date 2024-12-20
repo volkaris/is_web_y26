@@ -1,0 +1,64 @@
+
+h1 {
+    font-size: 2vw;
+}
+
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.photo-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.photo-card:hover {
+    transform: scale(1.05);
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.photo-card h3 {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.photo-card p {
+    margin: 5px 10px;
+    font-size: 0.9rem;
+}
